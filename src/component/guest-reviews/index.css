@@ -1,0 +1,28 @@
+.guest__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.guest__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.guest {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.guest__info {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+.guest__title {
+  color: #000;
+  font-weight: bold;
+}
